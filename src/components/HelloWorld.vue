@@ -3,7 +3,6 @@
     <h1>{{ msg }}</h1>
     <button v-on:click="counter += 1">Add 1</button>
     <p>The button above has been clicked {{ counter }} times.</p>
-    <h3>Installed CLI Plugins</h3>
     <ul>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-babel" target="_blank" rel="noopener">babel</a></li>
       <li><a href="https://github.com/vuejs/vue-cli/tree/dev/packages/%40vue/cli-plugin-eslint" target="_blank" rel="noopener">eslint</a></li>
