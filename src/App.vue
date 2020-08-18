@@ -1,18 +1,50 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <div class="row">
+    <div class="col-6"><img  src="./assets/cat.jpg"  width="400" height="300">
+    <HelloWorld msg="cat meme"/>
+    <counter/>
+    </div>
+    <div class="col-6"><img  src="./assets/dog2.jpg"  width="400" height="300">
+    <HelloWorld msg="me and monday"/>
+    <counter/>
+    </div>
+    <div class="col-6"><img  src="./assets/dog.jpg"  width="400" height="300">
+    <HelloWorld msg="dog meme"/>
+    <counter/>
+    </div>
+    <div class="col-6"><img  src="./assets/cat3.jpg" width="400" height="300">
+    <HelloWorld msg="crying"/>
+    <counter/>
+    </div>
+    </div>
+    ชื่อ-นามสกุล <input type="text" v-model="name"/>
+    รหัสนศ.<input type="text" v-model="code"/>
+    GPA <input type="number" v-model="gpa" step="0.01"/>
+    <hr />
+    ชื่อ:{{name}} รหัสนศ:{{code}} GPA:{{gpa}}
+     
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import counter from './components/counter.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    HelloWorld,
+    counter
+  },
+  data: function(){
+   return{
+     total: 0,
+     name: "",
+     code: "",
+     gpa: 0.0
+
+   };
+  },
 }
 </script>
 
