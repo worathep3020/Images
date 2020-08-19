@@ -2,19 +2,19 @@
   <div id="app">
     <div class="row">
     <div class="col-6"><img  src="./assets/cat.jpg"  width="400" height="300">
-    <HelloWorld msg="cat meme"/>
+    <HelloWorld msg="images1"/>
     <counter/>
     </div>
     <div class="col-6"><img  src="./assets/dog2.jpg"  width="400" height="300">
-    <HelloWorld msg="me and monday"/>
+    <HelloWorld msg="images2"/>
     <counter/>
     </div>
     <div class="col-6"><img  src="./assets/dog.jpg"  width="400" height="300">
-    <HelloWorld msg="dog meme"/>
+    <HelloWorld msg="images3"/>
     <counter/>
     </div>
     <div class="col-6"><img  src="./assets/cat3.jpg" width="400" height="300">
-    <HelloWorld msg="crying"/>
+    <HelloWorld msg="images4"/>
     <counter/>
     </div>
     </div>
